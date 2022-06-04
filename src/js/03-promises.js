@@ -29,7 +29,7 @@ function onSubmit(evt) {
           Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
         });
     }
-  }, refs.step.value);
+  }, inputDelayNumber);
 }
 
 function createPromise(position, delay) {
