@@ -53,7 +53,7 @@ function onStartBtnClick() {
     const time = convertMs(timeSubtraction);
     console.log(convertMs(timeSubtraction));
     updateTextComponent(time);
-    if (timeSubtraction < 1) {
+    if (timeSubtraction < 1000) {
       clearInterval(timerId);
       Notify.info('Time is up');
     }
