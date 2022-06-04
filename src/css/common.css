@@ -50,3 +50,23 @@ img {
 .value {
   font-size: 30px;
 }
+
+.form {
+  margin-top: 50px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form > button {
+  margin-top: 15px;
+}
+
+.form input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+}
